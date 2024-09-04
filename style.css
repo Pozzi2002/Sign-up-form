@@ -1,0 +1,122 @@
+
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Lato";
+}
+/*Left side*/
+.back {
+    max-height: 100vh;
+    max-width: 30vw;
+}
+.relative {
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 30vw;
+    display: flex;
+    top: 130px;
+}
+.logo {
+    max-height: 20vh;
+    position:relative;
+    max-width:50vw;
+    margin: 0 auto;
+}
+/*Right side*/
+.RightSide {
+    display: flex;
+    min-width: 70vw;
+    flex-direction: column;
+    max-height: 100vh;
+}
+.RightSide .heading {
+    padding: 5em 5em 2em 5em;
+    padding-right: 10em;
+    max-width: 50vw;
+    font-size: 0.8rem;
+    line-height: 1.5
+}
+.RightSide .signUp {
+    align-items: start;
+}
+fieldset {
+    box-shadow: 1px 1px 4px rgb(82, 81, 81);
+    background-color: rgb(24, 31, 51);
+    border: 0.5px solid gray;
+    border-left: none;
+    border-right: none;
+}
+legend {
+    font-family: "Grenze Gotisch";
+    font-size: 23px; 
+    font-style: italic;
+}
+.signUp p {
+    display: inline-block 
+}
+label {
+    display: block;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-bottom: 5px 
+}
+input {
+    border: 1px solid rgb(24, 31, 51);
+    font-family: inherit;
+    border-radius: 18px;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px 4rem 15px 2rem;
+    outline:none;
+}
+input:focus {
+    background-color: rgb(219, 214, 214);
+    box-shadow: inset 3px 3px 1px rgb(24, 31, 51);
+  }
+input:hover {
+      background-color: rgb(219, 214, 214);
+}
+input:user-invalid {
+    border: 1px solid red;
+}
+input:user-valid {
+    border: 1px solid blue;
+}
+
+button {
+    font-family: inherit;
+    margin: 2em 2em 0 2em;
+    padding: 1em;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(24, 31, 51);
+    border: 1px solid rgba(29, 69, 92, 0.849);
+}
+button:hover {
+  position: relative;
+  background-color: rgb(13, 17, 29);
+  bottom: 1px;
+}
+button:active {
+    transform: scale(0.96)
+}
+a {
+    text-decoration: none;
+    color: rgb(130, 138, 160);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+a:active {
+    text-decoration: none;
+    color: rgb(178, 178, 180);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.link {
+    margin-bottom: 0;
+}
