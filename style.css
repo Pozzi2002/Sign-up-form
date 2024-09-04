@@ -10,8 +10,8 @@ body {
 }
 /*Left side*/
 .back {
-    max-height: 100vh;
-    max-width: 30vw;
+    height: 100vh;
+    width: 30vw;
 }
 .relative {
     position:absolute;
