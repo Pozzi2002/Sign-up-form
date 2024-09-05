@@ -1,3 +1,6 @@
+:root {
+    --back: rgb(24, 31, 51);
+}
 
 body {
     margin: 0px;
@@ -45,7 +48,7 @@ body {
 }
 fieldset {
     box-shadow: 1px 1px 4px rgb(82, 81, 81);
-    background-color: rgb(24, 31, 51);
+    background-color: var(--back);
     border: 0.5px solid gray;
     border-left: none;
     border-right: none;
@@ -65,7 +68,7 @@ label {
     margin-bottom: 5px 
 }
 input {
-    border: 1px solid rgb(24, 31, 51);
+    border: 1px solid var(--back);
     font-family: inherit;
     border-radius: 18px;
     width: 200px;
@@ -73,10 +76,11 @@ input {
     padding: 5px;
     margin: 0px 4rem 15px 2rem;
     outline:none;
+    background-color: rgb(238, 236, 233);
 }
 input:focus {
     background-color: rgb(219, 214, 214);
-    box-shadow: inset 3px 3px 1px rgb(24, 31, 51);
+    box-shadow: inset 3px 3px 1px var(--back);
   }
 input:hover {
       background-color: rgb(219, 214, 214);
@@ -94,8 +98,9 @@ button {
     padding: 1em;
     border-radius: 20px;
     color: white;
-    background-color: rgb(24, 31, 51);
+    background-color: var(--back);
     border: 1px solid rgba(29, 69, 92, 0.849);
+    cursor: pointer;
 }
 button:hover {
   position: relative;
